@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #eeeeee;
+  width: calc(100% - 20px);
+  height: calc(100% - 40px);
+  border-radius: 5px;
+  margin: 20px auto;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.img-div {
+  width: calc(100% - 40px);
+
+  margin: 0 auto;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+.image {
+  max-width: 90%;
+  margin-bottom: 15px;
+  vertical-align: center;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.image-caption {
+  margin: 25px;
+}
+
+ul li {
+  /* list-style: disc; */
+  list-style-type: disc inside;
+  padding: 10px 0px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
