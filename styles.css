@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
 .main {
   background-color: #eeeeee;
   width: calc(100% - 20px);
@@ -16,11 +21,9 @@
 
 .img-div {
   width: calc(100% - 40px);
-
-  margin: 0 auto;
+  margin: 20px auto;
   background-color: white;
   padding: 5px;
-  margin: 5px;
 }
 
 .image {
@@ -41,10 +44,22 @@ ul li {
   /* list-style: disc; */
   list-style-type: disc inside;
   padding: 10px 0px;
+  line-height: 30px;
 }
 
 .container {
   width: 600px;
   margin: 0 auto;
   text-align: left;
+  line-height: 30px;
+}
+
+.nadpis {
+  margin: 30px 0px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+i {
+  line-height: 30px;
 }
