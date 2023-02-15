@@ -9,7 +9,7 @@ body {
   font-size: 20px;
 }
 
-.main {
+#main {
   background-color: #eeeeee;
   width: calc(100% - 20px);
   height: calc(100% - 40px);
@@ -19,24 +19,25 @@ body {
   text-align: center;
 }
 
-.img-div {
+#img-div {
   width: calc(100% - 40px);
   margin: 20px auto;
   background-color: white;
   padding: 5px;
 }
 
-.image {
-  max-width: 90%;
+#image {
+  max-width: 100%;
   margin-bottom: 15px;
-  vertical-align: center;
+  /* vertical-align: center; */
+  display: block;
 }
 
-.title {
+#title {
   margin-bottom: 10px;
 }
 
-.image-caption {
+#image-caption {
   margin: 25px;
 }
 
@@ -47,14 +48,14 @@ ul li {
   line-height: 30px;
 }
 
-.container {
+#container {
   width: 600px;
   margin: 0 auto;
   text-align: left;
   line-height: 30px;
 }
 
-.nadpis {
+#nadpis {
   margin: 30px 0px;
   font-size: 25px;
   font-weight: 700;
